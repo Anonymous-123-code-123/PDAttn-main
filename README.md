@@ -7,8 +7,6 @@
 - **Level 1 — gene-level conditioning:** perturbation features **modulate** gene representations (FiLM-style conditioning) so the model encodes **perturbation-aligned, gene-resolution** responses.
 - **Level 2 — context-aware injection:** perturbation features are combined with **cell background** information to form a context vector, which is injected into gene representations to capture **perturbation effects that vary across cellular contexts**.
 
-Place the architecture figure at the path below so it renders on GitHub and locally:
-
 ![PDAttn architecture](img/PDAttn%20Model.png)
 
 For splits and PyG dataloaders, this codebase follows conventions aligned with **GEARS**, enabling fair comparison with existing perturbation baselines: [snap-stanford/GEARS](https://github.com/snap-stanford/GEARS).
